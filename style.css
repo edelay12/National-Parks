@@ -1,0 +1,16 @@
+.list li{
+    list-style: square;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+}
+label {
+    font-size: 20px;
+}
+input {
+    font-size: 16px;
+    border: 1px solid black;
+}
