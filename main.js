@@ -31,7 +31,6 @@ fetch(url)
     $('.list').empty();
     $('#js-error').text(err);
 });
-
 }
 })
 
@@ -39,7 +38,6 @@ function renderDOM(ResponseJson){
     $('.list').empty();
     console.log(ResponseJson)
     for(let i=0; i<ResponseJson.data.length; i++){
-        console.log(i)
         const name = ResponseJson.data[i].fullName;
         const description1 = ResponseJson.data[i].description;
         const siteUrl = ResponseJson.data[i].url;
